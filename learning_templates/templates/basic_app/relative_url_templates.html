@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Relative URL</title>
+</head>
+<body>
+    <h1>Welcome to relative url templates</h1>
+    <!-- Remember that the basic_app in the anchor tage MUST match the app_name in the basic_app urls.py -->
+    <a href="{% url 'basic_app:other' %}">Here is the link to Other site.</a> <br>
+    <a href="{% url 'admin:index' %}">Here is the link to Admin site.</a><br>
+    <a href="{% url 'index' %}">TSL.</a>
+</body>
+</html>
